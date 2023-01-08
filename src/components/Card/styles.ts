@@ -67,6 +67,7 @@ export const Card = styled.div`
 
 export const CardTitle = styled.h2`
     margin-bottom: 20px;
+    font-family: 'Unbounded', sans-serif;
 `
 
 export const CardDescription = styled.p``
