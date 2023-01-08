@@ -4,7 +4,7 @@ export const MoveListItem = styled.li`
     display: flex;
     align-items: center;
     gap: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 `
 
 export const Marker = styled.span`

@@ -3,15 +3,35 @@ import * as Styled from 'src/components/MoveList/styles'
 
 const MoveList = () => {
   return (
-    <Styled.ListContainer>
-      <MoveListItem />
-      <MoveListItem />
-      <MoveListItem />
-      <MoveListItem />
-      <MoveListItem />
-      <MoveListItem />
-      <MoveListItem />
-    </Styled.ListContainer>
+    <Styled.MoveList>
+      <Styled.ListTitle>All moves</Styled.ListTitle>
+      <Styled.ListContainer>
+        <MoveListItem />
+        <MoveListItem />
+        <MoveListItem />
+        <MoveListItem />
+        <MoveListItem />
+        <MoveListItem />
+        <MoveListItem />
+        <MoveListItem />
+        <MoveListItem />
+        <MoveListItem />
+        <MoveListItem />
+        <MoveListItem />
+        <MoveListItem />
+        <MoveListItem />
+        <MoveListItem />
+        <MoveListItem />
+        <MoveListItem />
+        <MoveListItem />
+        <MoveListItem />
+        <MoveListItem />
+        <MoveListItem />
+        <MoveListItem />
+        <MoveListItem />
+        <MoveListItem />
+      </Styled.ListContainer>
+    </Styled.MoveList>
   )
 }
 
