@@ -6,7 +6,7 @@ export const MoveList = styled.div`
 
 export const ListContainer = styled.ul`
     width: 350px;
-    max-height: 470px;
+    max-height: 460px;
     padding: 20px;
     overflow-y: auto;
 `
