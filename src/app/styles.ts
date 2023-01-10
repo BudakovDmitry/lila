@@ -9,12 +9,10 @@ export const AppContainer = styled.div`
 export const RightField = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 30px;
 `
 
 export const Button = styled.button`
-    position: absolute;
-    bottom: 50px;
     width: 350px;
     height: 80px;
     padding: 20px 40px;

@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const DiceContainer = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 40px;
     width: 350px;
 `
 

@@ -21,6 +21,10 @@ export const Input = styled.input.attrs({ maxLength: '2' })`
         -webkit-appearance: none;
         margin: 0;
       }
+    &:focus {
+        outline: none;
+        box-shadow: 0px 0px 36px 15px rgba(71, 49, 134, 0.2);
+    }
 `
 
 export const Button = styled.button`
