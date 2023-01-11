@@ -1,11 +1,16 @@
 import * as Styled from 'src/components/MoveListItem/styles'
 
-const MoveListItem = () => {
+type MoveListItemProps = {
+  fieldNumber: number
+  fieldName: string
+}
+
+const MoveListItem = ({ fieldNumber, fieldName }: MoveListItemProps) => {
   return (
     <Styled.MoveListItem>
       <Styled.Marker></Styled.Marker>
-      <Styled.ItemNumber>7</Styled.ItemNumber>
-      <Styled.ItemText>Тщеславие</Styled.ItemText>
+      <Styled.ItemNumber>{fieldNumber}</Styled.ItemNumber>
+      <Styled.ItemText>{fieldName}</Styled.ItemText>
     </Styled.MoveListItem>
   )
 }

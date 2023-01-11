@@ -63,3 +63,14 @@ margin: 0 auto;
     width: 100%;
 }
 `
+
+export const ErrorText = styled.p`
+  width: 350px;
+  margin: 0 auto;
+  padding: 5px 0 0 0;
+  color: red;
+  font-size: 12px;
+  @media screen and (max-width: 430px) {
+    width: 256px;
+  }
+`

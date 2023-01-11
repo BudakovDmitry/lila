@@ -2,19 +2,20 @@ import styled from 'styled-components'
 
 export const CardBackground = styled.div`
     position: relative;
-    width: 350px;
-    height: 600px;
+    width: 300px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: 0.5s;
     z-index: 1;
+    margin: 0 auto;
 
     &::before {
         content: ' ';
         position: absolute;
         top: 0;
-        left: 70px;
+        left: 60px;
         width: 60%;
         height: 100%;
         text-decoration: none;
@@ -27,7 +28,7 @@ export const CardBackground = styled.div`
         content: '';
         position: absolute;
         top: 0;
-        left: 70px;
+        left: 60px;
         width: 60%;
         height: 100%;
         background: #fff;
@@ -52,8 +53,8 @@ export const CardBackground = styled.div`
 
 export const Card = styled.div`
     position: relative;
-    width: 350px;
-    height: 500px;
+    width: 300px;
+    height: 400px;
     padding: 20px 40px;
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
@@ -71,3 +72,7 @@ export const CardTitle = styled.h2`
 `
 
 export const CardDescription = styled.p``
+
+export const CloseCardButton = styled.button`
+    height: 80px;
+`

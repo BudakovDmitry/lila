@@ -3,7 +3,7 @@ import * as Styled from 'src/components/Dice/styles'
 import Loader from 'src/components/Loader'
 import Form from 'src/components/Form'
 
-const Dice = () => {
+const Dice = ({ handleViewCard }) => {
   const { diceNumber, getNumber, viewedForm } = useDice()
 
   return (
@@ -12,7 +12,7 @@ const Dice = () => {
         <Styled.Number>{diceNumber ? diceNumber : <Loader />}</Styled.Number>
       </Styled.Card>
       <Styled.Button onClick={getNumber}>Click</Styled.Button>
-      <Form viewed={viewedForm} />
+      <Form viewed={viewedForm} handleViewCard={handleViewCard} />
     </Styled.DiceContainer>
   )
 }
