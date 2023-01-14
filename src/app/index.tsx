@@ -14,11 +14,6 @@ const App = () => {
     card,
     closeCard,
   } = useApp()
-  const cardTest = {
-    id: 0,
-    title: 'test',
-    description: 'tsadgsfsg',
-  }
 
   return (
     <Styled.AppContainer>
@@ -27,14 +22,18 @@ const App = () => {
         {viewedList ? (
           <MoveList />
         ) : isOpenCard ? (
-          <Card card={card} closeCard={closeCard} />
+          <Card card={card} />
         ) : (
           <Dice handleViewCard={handleViewCard} />
         )}
-        {/* <Card card={cardTest} closeCard={closeCard} /> */}
-        <Styled.Button onClick={toggleViewList}>
-          {viewedList ? 'Hide all moves' : 'Show all moves'}
-        </Styled.Button>
+        <Styled.ContainerButtons>
+          <Styled.ButtonCloseCard isShow={isOpenCard} onClick={closeCard}>
+            Close
+          </Styled.ButtonCloseCard>
+          <Styled.Button viewedList={viewedList} onClick={toggleViewList}>
+            Moves
+          </Styled.Button>
+        </Styled.ContainerButtons>
       </Styled.RightField>
     </Styled.AppContainer>
   )

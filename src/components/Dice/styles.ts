@@ -8,8 +8,8 @@ export const DiceContainer = styled.div`
 `
 
 export const Card = styled.div`
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 30px;
     background: #e0e0e0;
     box-shadow: 15px 15px 30px #bebebe,
@@ -29,8 +29,8 @@ export const Number = styled.h2`
 
 export const Button = styled.button`
     position: relative;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);

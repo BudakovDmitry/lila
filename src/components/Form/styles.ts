@@ -9,8 +9,8 @@ export const Form = styled.form<FormProps>`
 `
 
 export const Input = styled.input.attrs({ maxLength: '2' })`
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     margin: 0 auto;
     border: none;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -29,8 +29,8 @@ export const Input = styled.input.attrs({ maxLength: '2' })`
 
 export const Button = styled.button`
 position: relative;
-width: 160px;
-height: 80px;
+width: 130px;
+height: 70px;
 background: rgba(71,49,134, 0.3);
 background: linear-gradient(90deg, rgba(71,49,134, 0.3) 0%, rgba(255,188,0, 0.3) 100%);
 backdrop-filter: blur(10px);

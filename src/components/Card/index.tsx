@@ -3,10 +3,9 @@ import { CardType } from 'src/types'
 
 type CardProps = {
   card: CardType
-  closeCard: () => void
 }
 
-const Card = ({ card, closeCard }: CardProps) => {
+const Card = ({ card }: CardProps) => {
   return (
     <>
       <Styled.CardBackground>
@@ -15,7 +14,6 @@ const Card = ({ card, closeCard }: CardProps) => {
           <Styled.CardDescription>{card.description}</Styled.CardDescription>
         </Styled.Card>
       </Styled.CardBackground>
-      <Styled.CloseCardButton onClick={closeCard}>Close</Styled.CloseCardButton>
     </>
   )
 }

@@ -2,8 +2,8 @@ import styled from 'styled-components'
 
 export const CardBackground = styled.div`
     position: relative;
-    width: 300px;
-    height: 500px;
+    width: 380px;
+    height: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,7 @@ export const CardBackground = styled.div`
         content: ' ';
         position: absolute;
         top: 0;
-        left: 60px;
+        left: 75px;
         width: 60%;
         height: 100%;
         text-decoration: none;
@@ -28,7 +28,7 @@ export const CardBackground = styled.div`
         content: '';
         position: absolute;
         top: 0;
-        left: 60px;
+        left: 75px;
         width: 60%;
         height: 100%;
         background: #fff;
@@ -53,8 +53,8 @@ export const CardBackground = styled.div`
 
 export const Card = styled.div`
     position: relative;
-    width: 300px;
-    height: 400px;
+    width: 380px;
+    height: 450px;
     padding: 20px 40px;
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
