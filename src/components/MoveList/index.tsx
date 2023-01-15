@@ -6,20 +6,28 @@ import { MoveType } from 'src/types'
 const MoveList = () => {
   const { allMoves } = useMoveList()
 
+  console.log(allMoves)
+
   return (
     <Styled.MoveList>
-      <Styled.ListTitle>All moves</Styled.ListTitle>
-      <Styled.ListContainer>
-        {allMoves.map((move: MoveType) => {
-          return (
-            <MoveListItem
-              key={move.id}
-              fieldNumber={move.fieldNumber}
-              fieldName={move.fieldName}
-            />
-          )
-        })}
-      </Styled.ListContainer>
+      {allMoves.length ? (
+        <>
+          <Styled.ListTitle>Шлях</Styled.ListTitle>
+          <Styled.ListContainer>
+            {allMoves.map((move: MoveType) => {
+              return (
+                <MoveListItem
+                  key={move.id}
+                  fieldNumber={move.fieldNumber}
+                  fieldName={move.fieldName}
+                />
+              )
+            })}
+          </Styled.ListContainer>
+        </>
+      ) : (
+        <Styled.HelpText>Вибач, але ти ще не почала свій шлях</Styled.HelpText>
+      )}
     </Styled.MoveList>
   )
 }

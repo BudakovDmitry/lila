@@ -32,7 +32,7 @@ const Form = ({ viewed, handleViewCard }: FormTypeProps) => {
           {errors.cardNumber.message as ReactNode}
         </Styled.ErrorText>
       )}
-      <Styled.Button>Open card</Styled.Button>
+      <Styled.Button>Відкрити карту</Styled.Button>
     </Styled.Form>
   )
 }

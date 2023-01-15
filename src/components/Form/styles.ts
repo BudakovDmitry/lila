@@ -29,7 +29,7 @@ export const Input = styled.input.attrs({ maxLength: '2' })`
 
 export const Button = styled.button`
 position: relative;
-width: 130px;
+width: 170px;
 height: 70px;
 background: rgba(71,49,134, 0.3);
 background: linear-gradient(90deg, rgba(71,49,134, 0.3) 0%, rgba(255,188,0, 0.3) 100%);
@@ -41,7 +41,7 @@ transform: 0.5s;
 color: #fff;
 text-align: center;
 border: none;
-font-size: 22px;
+font-size: 20px;
 cursor: pointer;
 margin: 0 auto;
 &::before {

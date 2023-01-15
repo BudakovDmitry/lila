@@ -11,7 +11,7 @@ const Dice = ({ handleViewCard }) => {
       <Styled.Card>
         {diceNumber ? <Styled.Number>{diceNumber}</Styled.Number> : <Loader />}
       </Styled.Card>
-      <Styled.Button onClick={getNumber}>Click</Styled.Button>
+      <Styled.Button onClick={getNumber}>Кидай</Styled.Button>
       <Form viewed={viewedForm} handleViewCard={handleViewCard} />
     </Styled.DiceContainer>
   )

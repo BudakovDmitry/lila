@@ -15,3 +15,8 @@ export const ListTitle = styled.h2`
     text-align: center;
     margin-bottom: 30px;
 `
+
+export const HelpText = styled.h2`
+    text-align: center;
+    font-size: 20px;
+`

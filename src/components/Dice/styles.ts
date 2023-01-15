@@ -37,12 +37,15 @@ export const Button = styled.button`
     border-radius: 8px;
     z-index: 1;
     transform: 0.5s;
-    color: #fff;
+    color: #000000;
     text-align: center;
     border: none;
-    font-size: 22px;
+    font-size: 18px;
     cursor: pointer;
     margin: 0 auto;
+    &:hover {
+        color: #ffffff;
+    }
     &::before {
         content: '';
         width: 0;

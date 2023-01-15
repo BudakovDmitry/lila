@@ -33,10 +33,10 @@ const App = () => {
             isShow={isOpenCard && !viewedList}
             onClick={closeCard}
           >
-            Close
+            Закрити
           </Styled.ButtonCloseCard>
           <Styled.Button viewedList={viewedList} onClick={toggleViewList}>
-            Moves
+            Шлях
           </Styled.Button>
         </Styled.ContainerButtons>
       </Styled.RightField>
