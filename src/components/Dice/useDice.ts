@@ -7,9 +7,9 @@ export const useDice = () => {
 
     const getNumber = () => {
         diceNumber && setDiceNumber(null)
-        getForm()
         setTimeout(() => {
             setDiceNumber(getRandomNumber(1, 7))
+            getForm()
         }, 1000)
     }
 

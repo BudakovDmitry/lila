@@ -3,6 +3,7 @@ import * as Styled from 'src/app/styles'
 import Card from 'src/components/Card'
 import Field from 'src/components/Field'
 import MoveList from 'src/components/MoveList'
+import Chip from 'src/components/Chip'
 import { useApp } from 'src/app/useApp'
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
     <Styled.AppContainer>
       <Field />
       <Styled.RightField>
+        <Chip />
         {viewedList ? (
           <MoveList />
         ) : isOpenCard ? (
@@ -27,7 +29,10 @@ const App = () => {
           <Dice handleViewCard={handleViewCard} />
         )}
         <Styled.ContainerButtons>
-          <Styled.ButtonCloseCard isShow={isOpenCard} onClick={closeCard}>
+          <Styled.ButtonCloseCard
+            isShow={isOpenCard && !viewedList}
+            onClick={closeCard}
+          >
             Close
           </Styled.ButtonCloseCard>
           <Styled.Button viewedList={viewedList} onClick={toggleViewList}>

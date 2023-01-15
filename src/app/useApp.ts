@@ -11,7 +11,6 @@ export const useApp = () => {
     const allCards = useSelector((state: any) => state.cards)
     const { dispatch } = usePage()
     const [isOpenCard, setIsOpenCard] = useState<boolean>(false)
-    console.log(card)
 
     const toggleViewList = () => setViewedList(prev => !prev)
 
