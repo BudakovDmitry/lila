@@ -71,7 +71,9 @@ export const CardTitle = styled.h2`
     font-family: 'Unbounded', sans-serif;
 `
 
-export const CardDescription = styled.p``
+export const CardDescription = styled.p`
+    font-size: 14px;
+`
 
 export const CloseCardButton = styled.button`
     height: 80px;

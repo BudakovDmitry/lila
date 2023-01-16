@@ -4,24 +4,24 @@ const initialState = {
     cards: [
         {
             id: 0,
-            title: 'Тщеславие 1',
-            description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+            title: 'РОЖДЕНИЕ (ДЖАНМА)',
+            description: 'Этот мир - страна кармы. Игра заключена в самой природе сознания. В начале игры небыло, но сознание в соответствии со своей природой не могло оставаться неподвижным, без игры. А потому... "Да будет свет!" Да будет игра! И Абсолют из Единого превратился во множество. Вступая в игру, игрок повторяет изначальный процесс творения, когда Абсолют пробудился от бездействия и начал космическую игру, в которой каждый из нас является микрокосмом. Приняв решение играть, игрок должен подчиниться правилам игры (Дхарме) и кармическому жребию. Единица символизирует независимую личность, независимое решение, независимую жизнь, поиск чего-то нового, необыкновенного, оригинального.'
         },
         {
           id: 1,
-          title: 'Тщеславие 2',
-          description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
-      },
-      {
-        id: 2,
-        title: 'Тщеславие 3',
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
-    },
-    {
-      id: 3,
-      title: 'Тщеславие 4',
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
-  }
+          title: 'МАЙЯ',
+          description: 'Человек рождается, чтобы принять участие в этой игре, чтобы понять, как принципы тонкого мира работают в мире плотном. А ее целью является единение, прекращение двойственности. Двойка несет в себе качества двойственности, то есть иллюзии. Это число получается, когда единицаповторяет сама себя. Двойка - это иллюзия, так как обе составляющие ее противоположности присутствуют в Едином. Все, что нужно сделать игроку, - это осознать, что он игрок и что испытываемое им чувство отдельности является иллюзией. Все восприятия, получаемые игроком из внешнего мира, существуют внутри него самого в виде сигналов, поступающих через органы чувств, и являются иллюзией. Эго не может функционировать без ума, ум также не может работать без органов чувтсв. Таким образом, полностью отрешиться от чувств "я" и "моего" возможно только при полном контроле за работой ума. Именно к этому состоянию стремяться те, кто занимается йогой. Когда оно достигнуто, иллюзорное осознание себя как отдельного независимого существа прекращается.'
+        },
+        {
+          id: 2,
+          title: 'ГНЕВ (КРОДХА)',
+          description: 'Гнев - это неуверенность, основная проблема первой чакры. Гнев, вызываемый личными причинами, пожирает добрые качества личности и приводит к падению. Безличный гнев, без личных чувств, разрушает вызвавшую его причину, зло. С одной стороны, он очищает тело и по действию похож на очищение огнем, но цена этого слишком велика: уровень вибраций понижается настолько, что игроку приходится начинать игру снова с первого ряда. Гнев может выражаться двумя способами - насильственным и ненасильственным. Когда для выражения гнева принимается ненасильственный метод, это дает игроку огромную моральную силу.'
+        },
+        {
+          id: 3,
+          title: 'ЖАДНОСТЬ (ЛОБХА)',
+          description: 'Материальное выживание является основной заботой игрока на уровне первой чакры. Когда игрок смешивает свое ощущение неудовлетворенности и необходимость материального выживания, появляется жадность. Теперь он начинает использовать основные навыки выживания, чтобы завладеть ещё большим. Однако чем больше он приобретает, тем сильнее становиться его жажда приобретения. Его ощущение пустоты достигает уровня паники, действия становятся безрассудными. Игрок, попадающий на поле жадности, открывает ворота своего сознания для майи, гнева и всех остальных проблем первой чакры.'
+        },
     ],
     allMoves: [] as MoveType[],
   }
