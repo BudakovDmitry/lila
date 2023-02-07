@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { FormProps } from 'src/components/Form/types'
+import { FormProps, InputProps } from 'src/components/Form/types'
 
 export const Form = styled.form<FormProps>`
     display: flex;
@@ -8,14 +8,14 @@ export const Form = styled.form<FormProps>`
     visibility: ${props => props.viewed}
 `
 
-export const Input = styled.input.attrs({ maxLength: '2' })`
+export const Input = styled.input.attrs({ maxLength: '2' })<InputProps>`
     width: 70px;
     height: 70px;
     margin: 0 auto;
     border: none;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: '0 5px 15px rgba(0, 0, 0, 0.1)';
     border-radius: 10px;
-    font-size: 52px;
+    font-size: 46px;
     padding: 10px;
     &::-webkit-inner-spin-button {
         -webkit-appearance: none;
@@ -23,7 +23,7 @@ export const Input = styled.input.attrs({ maxLength: '2' })`
       }
     &:focus {
         outline: none;
-        box-shadow: 0px 0px 36px 15px rgba(71, 49, 134, 0.2);
+        box-shadow: ${props => props.error ? '0px 0px 25px 10px rgb(240,128,128)' : '0px 0px 36px 15px rgba(71, 49, 134, 0.2)'};
     }
 `
 

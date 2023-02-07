@@ -26,12 +26,13 @@ const Form = ({ viewed, handleViewCard }: FormTypeProps) => {
           min: { value: 1, message: 'Мінімально 1' },
           max: { value: 72, message: 'Максимально 72' },
         })}
+        error={errors.cardNumber}
       />
-      {errors.cardNumber && (
+      {/* {errors.cardNumber && (
         <Styled.ErrorText>
           {errors.cardNumber.message as ReactNode}
         </Styled.ErrorText>
-      )}
+      )} */}
       <Styled.Button>Відкрити карту</Styled.Button>
     </Styled.Form>
   )
