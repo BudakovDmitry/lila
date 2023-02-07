@@ -20,6 +20,7 @@ export const Marker = styled.span`
 export const ItemNumber = styled.p`
     font-weight: 700;
     padding-right: 30px;
+    min-width: 50px;
     border-right: 1px solid #8f8f8f;
 `
 
