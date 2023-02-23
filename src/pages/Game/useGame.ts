@@ -5,7 +5,7 @@ import { addMove } from 'src/redux/actions'
 import { nanoid } from 'nanoid'
 import { CardType } from "src/types"
 
-export const useApp = () => {
+export const useGame = () => {
     const [viewedList, setViewedList] = useState(false)
     const [card, setCard] = useState({} as CardType)
     const allCards = useSelector((state: any) => state.cards)
