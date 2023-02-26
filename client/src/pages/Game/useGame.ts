@@ -1,16 +1,18 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { useSelector } from 'react-redux'
 import { usePage } from "src/hooks/usePage"
 import { addMove } from 'src/redux/actions'
 import { nanoid } from 'nanoid'
 import { CardType } from "src/types"
+import { toast } from 'react-toastify';
 
 export const useGame = () => {
     const [viewedList, setViewedList] = useState(false)
     const [card, setCard] = useState({} as CardType)
     const allCards = useSelector((state: any) => state.cards)
-    const { dispatch } = usePage()
     const [isOpenCard, setIsOpenCard] = useState<boolean>(false)
+    const isLogged = useSelector((state: any) => state.isLogged)
+    const { dispatch, navigate } = usePage()
 
     const toggleViewList = () => setViewedList(prev => !prev)
 
@@ -30,6 +32,13 @@ export const useGame = () => {
     }
 
     const closeCard = () => setIsOpenCard(false);
+
+    useEffect(() => {
+        if (!isLogged) {
+            navigate('/sign-in');
+            toast.error('Потрібно залогінитись!')
+        }
+    }, [])
 
     return {
         viewedList,

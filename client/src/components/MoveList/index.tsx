@@ -6,8 +6,6 @@ import { MoveType } from 'src/types'
 const MoveList = () => {
   const { allMoves } = useMoveList()
 
-  console.log(allMoves)
-
   return (
     <Styled.MoveList>
       {allMoves.length ? (
