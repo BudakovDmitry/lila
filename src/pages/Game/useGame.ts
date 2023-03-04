@@ -35,7 +35,7 @@ export const useGame = () => {
 
     useEffect(() => {
         if (!isLogged) {
-            navigate('/sign-in');
+            navigate('/');
             toast.error('Потрібно залогінитись!')
         }
     }, [])
