@@ -46,7 +46,7 @@ module.exports = {
     },
   },
   output: {
-    publicPath: '/',
+    publicPath: './',
     path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
   },
