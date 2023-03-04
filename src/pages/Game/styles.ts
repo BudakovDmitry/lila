@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { AllMovesButtonProps, CloseCardButtonProps } from 'src/app/types'
+import { AllMovesButtonProps, CloseCardButtonProps } from 'src/pages/Game/types'
 
 export const AppContainer = styled.div`
     display: flex;

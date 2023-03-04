@@ -6,8 +6,6 @@ import { MoveType } from 'src/types'
 const MoveList = () => {
   const { allMoves } = useMoveList()
 
-  console.log(allMoves)
-
   return (
     <Styled.MoveList>
       {allMoves.length ? (
@@ -26,7 +24,9 @@ const MoveList = () => {
           </Styled.ListContainer>
         </>
       ) : (
-        <Styled.HelpText>Вибач, але ти ще не почала свій шлях</Styled.HelpText>
+        <Styled.HelpText>
+          Вибачте, але ви ще не почали свій шлях
+        </Styled.HelpText>
       )}
     </Styled.MoveList>
   )

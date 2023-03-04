@@ -1,6 +1,17 @@
 import { MoveType } from 'src/types'
 
 const initialState = {
+    isLogged: false,
+    users: [
+      {
+        email: 'test@gmail.com',
+        password: 'spalding'
+      },
+      {
+        email: 'test2@gmail.com',
+        password: 'sp2alding'
+      }
+    ],
     cards: [
         {
             id: 0,
@@ -372,6 +383,11 @@ const initialState = {
         return {
           ...state,
           allMoves: [...state.allMoves, action.payload],
+        }
+      case 'LOGIN': 
+        return {
+          ...state,
+          isLogged: action.payload
         }
       default:
         return state

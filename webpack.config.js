@@ -46,6 +46,7 @@ module.exports = {
     },
   },
   output: {
+    publicPath: '/',
     path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
   },
@@ -55,5 +56,6 @@ module.exports = {
     },
     compress: true,
     port: 3000,
+    historyApiFallback: true,
   },
 }
