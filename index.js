@@ -3170,7 +3170,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n/* harmony import */ var src_components_Field_styles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/components/Field/styles */ \"./src/components/Field/styles.ts\");\n\n\nconst FieldImage = __webpack_require__(/*! src/images/field.jpg */ \"./src/images/field.jpg\");\nconst Field = () => {\n    return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(src_components_Field_styles__WEBPACK_IMPORTED_MODULE_1__.FieldContainer, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(src_components_Field_styles__WEBPACK_IMPORTED_MODULE_1__.FieldImage, { src: FieldImage }) }));\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Field);\n\n\n//# sourceURL=webpack://lila/./src/components/Field/index.tsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n/* harmony import */ var src_components_Field_styles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/components/Field/styles */ \"./src/components/Field/styles.ts\");\n\n\nconst FieldImage = __webpack_require__(/*! src/images/field.webp */ \"./src/images/field.webp\");\nconst Field = () => {\n    return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(src_components_Field_styles__WEBPACK_IMPORTED_MODULE_1__.FieldContainer, { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(src_components_Field_styles__WEBPACK_IMPORTED_MODULE_1__.FieldImage, { src: FieldImage }) }));\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Field);\n\n\n//# sourceURL=webpack://lila/./src/components/Field/index.tsx?");
 
 /***/ }),
 
@@ -3471,14 +3471,14 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ../cj
 
 /***/ }),
 
-/***/ "./src/images/field.jpg":
-/*!******************************!*\
-  !*** ./src/images/field.jpg ***!
-  \******************************/
+/***/ "./src/images/field.webp":
+/*!*******************************!*\
+  !*** ./src/images/field.webp ***!
+  \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-eval("module.exports = __webpack_require__.p + \"images/field.jpg\";\n\n//# sourceURL=webpack://lila/./src/images/field.jpg?");
+eval("module.exports = __webpack_require__.p + \"images/field.webp\";\n\n//# sourceURL=webpack://lila/./src/images/field.webp?");
 
 /***/ }),
 
