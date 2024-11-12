@@ -1,6 +1,6 @@
 import * as Styled from 'src/components/Field/styles'
 
-const FieldImage = require('src/images/field.webp')
+const FieldImage = require('src/images/field.jpg')
 
 const Field = () => {
   return (
